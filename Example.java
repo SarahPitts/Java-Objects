@@ -1,4 +1,5 @@
-//java-repl will start the read evaluate print loop
+//java -jar java-repl-master/build/artifacts/javarepl-dev.build.jar
+// will start the read evaluate print loop
 // :cls will clear the screen
 //.contains is case sensitive, must use .toLowerCase with it
 
