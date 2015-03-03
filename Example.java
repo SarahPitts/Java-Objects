@@ -15,6 +15,7 @@ public class Example {
         // the name of the variable is dispenser
         PezDispenser dispenser = new PezDispenser ();
         //we can access the fields that we exposed publicly such as mCharacterName
-        System.out.printf("The dispenser character name is %s \n", dispenser.mCharacterName);
+        //swapped to use getter method now that mCharacterName has been set to private
+        System.out.printf("The dispenser character name is %s \n", dispenser.getCharacterName());
     }
 }
