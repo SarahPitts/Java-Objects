@@ -13,7 +13,8 @@ public class Example {
         System.out.println("We are making a new Pez dispenser");
         //just like every other variable this one will have a type.  it's type will be PezDispenser
         // the name of the variable is dispenser
-        PezDispenser dispenser = new PezDispenser ();
+        // when a constructor is defined a default response is required.
+        PezDispenser dispenser = new PezDispenser ("Hello Kitty");
         //we can access the fields that we exposed publicly such as mCharacterName
         //swapped to use getter method now that mCharacterName has been set to private
         System.out.printf("The dispenser character name is %s \n", dispenser.getCharacterName());
